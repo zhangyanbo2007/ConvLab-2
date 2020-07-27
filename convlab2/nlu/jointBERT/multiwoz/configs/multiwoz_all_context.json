@@ -11,7 +11,7 @@
     "finetune": true,
     "context": true,
     "context_grad": false,
-    "pretrained_weights": "bert-base-uncased",
+    "pretrained_weights": "/home/dm/myProject/dialogueSystem/ConvLab-2/convlab2/nlu/jointBERT/bert-base-uncased-local",
     "check_step": 1000,
     "max_step": 10000,
     "batch_size": 40,

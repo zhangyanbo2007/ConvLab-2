@@ -33,7 +33,6 @@ class BERTNLU(NLU):
         tag_vocab = json.load(open(os.path.join(data_dir, 'tag_vocab.json')))
         dataloader = Dataloader(intent_vocab=intent_vocab, tag_vocab=tag_vocab,
                                 pretrained_weights=config['model']['pretrained_weights'])
-
         print('intent num:', len(intent_vocab))
         print('tag num:', len(tag_vocab))
 
